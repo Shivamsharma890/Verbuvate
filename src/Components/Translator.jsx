@@ -4,6 +4,7 @@ import { LoaderCircle } from 'lucide-react'
 import { languages } from "./Ldata.jsx";
 import axios from 'axios'
 
+
 const Translator = () => {
 
   const [textInput, setTextInput] = useState("")
@@ -19,8 +20,8 @@ const Translator = () => {
         method: 'POST',
         url: 'https://google-translator9.p.rapidapi.com/v2',
         headers: {
-          'x-rapidapi-key': 'cd227b262bmsha8a5fbfdc95367fp1bf271jsnd2239141e1c1',
-          'x-rapidapi-host': 'google-translator9.p.rapidapi.com',
+          'x-rapidapi-key': import.meta.env.VITE_RAPIDAPI_KEY,
+          'x-rapidapi-host': import.meta.env.VITE_RAPIDAPI_HOST,
           'Content-Type': 'application/json'
         },
         data: {
