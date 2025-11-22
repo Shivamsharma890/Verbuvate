@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="w-full sm:w-fit p-5 py-7 text-center sm:text-left">
           <img className="h-18 w-20 mx-auto sm:mx-0" src={logo} alt="Logo" />
 
-          <div className="flex gap-8 sm:gap-14 pt-5 flex-wrap justify-center sm:justify-start">
+          <div className="flex gap-8 sm:gap-14 pt-5 flex-wrap">
             <img className="h-8 w-8" src={facek} alt="facebook" />
             <img className="h-8 w-8" src={insta} alt="insta" />
             <img className="h-8 w-8" src={twir} alt="twitter" />
