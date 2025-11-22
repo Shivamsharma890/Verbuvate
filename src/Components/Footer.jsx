@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         {/* Links Section */}
-        <div className="text-gray-200 flex gap-x-10 md:gap-x-40 gap-y-10 p-5 w-full sm:w-fit flex-wrap justify-center sm:justify-start">
+        <div className="text-gray-200 flex gap-x-10 md:gap-x-40 gap-y-10 p-5 w-full sm:w-fit flex-wrap">
 
           <span className="space-y-3 text-center sm:text-left">
             <h1 className="text-white font-semibold text-lg pb-2">Solutions</h1>
