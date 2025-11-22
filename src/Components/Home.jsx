@@ -57,7 +57,7 @@ const Home = () => {
 
       <div className='space-y-10 bg-gray-900 pb-10'>
         <h1 className='text-gray-100 text-center font-bold text-xl pt-10'>Features</h1>
-        <div className='flex gap-6 justify-center flex-wrap'>
+        <div className='flex gap-6 justify-center lg:justify-center md:justify-center sm:justify-start flex-wrap'>
           {users.map(function (elem) {
             return <Card pics={elem.pic} Stxt={elem.stext} Btxt={elem.btext} />
           })}
